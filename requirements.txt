@@ -1,5 +1,4 @@
 importlib-metadata==3.7.3
-python==3.6.9
 ipykernel==5.5.0
 ipython==7.16.1
 ipython-genutils==0.2.0
