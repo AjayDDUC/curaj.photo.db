@@ -1,4 +1,9 @@
 from streamlit import *
+import os
+import cv2 as cv
+import pathlib
+import random
+import time
 
 def get_photo_dir(dir_path):
     image_dir = list()
@@ -65,11 +70,7 @@ def main():
     # path_ = text_input("Enter the image folder path:\n")
     # path_ = file_uploader("Browser PATH", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
 
-    import os
-    import cv2 as cv
-    import pathlib
-    import random
-    import time
+
     img = cv.imread(r"C:\Users\curaj1\Downloads\ComputerVision\download.jpg")
     image(img)
     check = sidebar.radio("Navigation", ["Files", "Folder"])
