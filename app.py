@@ -1,3 +1,5 @@
+from streamlit import *
+
 def get_photo_dir(dir_path):
     image_dir = list()
     images_name = os.listdir(dir_path)
@@ -62,7 +64,7 @@ def main():
 
     # path_ = text_input("Enter the image folder path:\n")
     # path_ = file_uploader("Browser PATH", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
-    from streamlit import *
+
     import os
     import cv2 as cv
     import pathlib
