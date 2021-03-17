@@ -67,8 +67,8 @@ def create_dataset_folder(dir_path):
         
 
 def main():
-    img = cv.imread(r"C:\Users\curaj1\Downloads\ComputerVision\download.jpg")
-    st.image(img)
+#     img = cv.imread(r"C:\Users\curaj1\Downloads\ComputerVision\download.jpg")
+#     st.image(img)
     check = st.sidebar.radio("Navigation", ["Files", "Folder"])
     if check == 'Files':
         path_ = st.file_uploader("Browser Files", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
