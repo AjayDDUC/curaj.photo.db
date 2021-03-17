@@ -6,6 +6,7 @@ def main():
     check = st.sidebar.radio("Navigation", ["Files", "Folder"])
     if check == 'Files':
         path_ = st.file_uploader("Browser Files", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
+        st.error("Logic under Construction")
         # create_dataset_files(path_)
     else:
         path_ = st.text_input("Browser PATH\n")
