@@ -1,4 +1,5 @@
 from streamlit import *
+from cv2 import *
 import os
 import cv2 as cv
 import pathlib
