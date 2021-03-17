@@ -2,6 +2,7 @@ import streamlit as st
 
 
 def main():
+    st.balloons()
     check = st.sidebar.radio("Navigation", ["Files", "Folder"])
     if check == 'Files':
         path_ = st.file_uploader("Browser Files", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
