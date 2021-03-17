@@ -1,10 +1,4 @@
-from streamlit import *
-from cv2 import *
-import os
-import cv2 as cv
-import pathlib
-import random
-import time
+
 
 def get_photo_dir(dir_path):
     image_dir = list()
