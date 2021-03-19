@@ -2,7 +2,6 @@ import streamlit as st
 
 
 def main():
-    st.balloons()
     check = st.sidebar.radio("Navigation", ["Files", "Folder"])
     if check == 'Files':
         st.error("Logic under Construction")
