@@ -3,6 +3,7 @@ import streamlit as st
 
 def main():
     check = st.sidebar.radio("Navigation", ["Files", "Folder"])
+    st.write(pwd())
     if check == 'Files':
         st.error("Logic under Construction")
         path_ = st.file_uploader("Browser Files", accept_multiple_files=True, type=["png", "jpg", "jpeg"])
